@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
 </head>
+
 <body>
-    <div>Welcome to CEV06</div>
+    <div style="display:flex; justify-content:center; align-items: center;margin-top: 100px;">
+        <div
+            style="width:25%;display: flex; justify-content:center; align-items: center; border-radius: 10px;flex-direction: column; background-color: pink ; ">
+            <h1>Đăng nhập</h1>
+            <form style="display: flex; gap: 20px; flex-direction: column; width: 90%;">
+                <input type="email" placeholder="Nhập email" style="width: 100%; height: 30px;" />
+                <input type="password" placeholder="Nhập mật khẩu" style="width: 100%; height: 30px;" />
+            </form>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <p>Bạn đã có tài khoản chưa?</p>
+                <a href="#" style="color: black; font-style: italic;">Đăng ký</a>
+            </div>
+            <button type="submit"
+                style="width: 40%; height: 40px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; margin-bottom: 20px; cursor: pointer;">
+                Đăng nhập
+            </button>
+
+        </div>
+    </div>
+
 </body>
+
 </html>
